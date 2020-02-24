@@ -5,7 +5,9 @@
     "lib": [ "es2020","dom"],
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./src/*"] }
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
